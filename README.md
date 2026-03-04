@@ -60,6 +60,5 @@ The objective is to help telecom companies reduce revenue loss by identifying hi
 - Improve service strategies for high-value customers
 
 ## Snapshot
-
-
+![Preview](https://github.com/Harshnd2004/Telco-Customer-Churn-Analysis-and-Prediction/blob/main/Snapshot%20of%20main%20chart.PNG)
 
