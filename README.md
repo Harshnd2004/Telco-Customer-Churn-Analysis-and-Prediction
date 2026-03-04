@@ -1,53 +1,65 @@
-# 📊 Telco Customer Churn Analysis
+# Telco Customer Churn Analysis & Prediction
 
-## Project Title / Headline  
-Customer Churn Analysis Using Python 
+## Project Title
 
-## Short Description / Purpose  
+**Telco Customer Churn Analysis & Machine Learning Prediction Model**  
+An end-to-end data analytics and predictive modeling project designed to analyze customer churn behavior and build a machine learning model to predict customer attrition.
 
-This project analyzes telecom customer data to identify key factors contributing to customer churn.  
-Using Python-based Exploratory Data Analysis (EDA), the objective was to uncover behavioral patterns related to contract type, tenure, pricing, and payment methods in order to support data-driven customer retention strategies.
+## Short Description / Purpose
 
-## Tech Stack  
+This project analyzes telecom customer data to identify the key factors influencing customer churn and builds a predictive classification model to determine whether a customer is likely to leave.
 
--  Python  
--  Pandas – Data manipulation & analysis  
--  Matplotlib & Seaborn – Data visualization  
--  NumPy – Numerical operations  
--  Jupyter Notebook – Analytical workflow  
--  Correlation Analysis & Statistical Exploration  
+The objective is to help telecom companies reduce revenue loss by identifying high-risk customers early and implementing proactive retention strategies.
 
-## Features / Highlights  
+## Tech Stack
 
-### Business Problem  
+- Python  
+- Pandas & NumPy  
+- Matplotlib & Seaborn  
+- Scikit-learn (Sklearn)  
+- Jupyter Notebook  
 
-Telecom companies face significant revenue loss due to customer attrition.  
-Identifying which customers are likely to churn is critical for improving retention and profitability.
+## Features / Highlights
 
-Key questions addressed:
-- Which contract types have the highest churn?
-- Does customer tenure influence churn behavior?
-- Are higher monthly charges linked to churn?
-- Which payment methods indicate higher risk?
+### 1. Exploratory Data Analysis (EDA)
 
-### Key Analysis Performed  
+- Analyzed overall churn rate (26–27%)
+- Identified higher churn among:
+  - Month-to-Month contract customers
+  - Low-tenure customers
+  - High monthly charge customers
+- Created visualizations:
+  - Churn distribution bar chart
+  - Contract vs Churn stacked bar chart
+  - Tenure vs Churn comparison chart
+  - Correlation heatmap
+  - Scatter plot (Tenure vs Monthly Charges)
 
-- Churn Distribution Analysis (26.5% churn rate identified)  
-- Contract Type vs Churn comparison (Month-to-Month highest risk)  
-- Tenure vs Churn pattern analysis (Low tenure = high churn)  
-- Monthly Charges distribution analysis  
-- Payment Method churn segmentation  
-- Correlation heatmap to identify influential variables  
+### 2. Machine Learning Prediction
 
-## Business Impact & Insights  
+- Performed data preprocessing and encoding of categorical variables
+- Applied train-test split for model validation
+- Built classification model using Scikit-learn
+- Evaluated model performance using:
+  - Accuracy Score (75–85%)
+  - Confusion Matrix
+  - Classification Report
 
-- Identified **high-risk churn segment:** Month-to-Month customers with low tenure  
-- Long-term contracts significantly reduce churn probability  
-- Higher monthly charges increase churn likelihood (price sensitivity observed)  
-- Electronic check users demonstrate higher churn rates  
-- Insights support targeted retention campaigns and contract optimization strategies  
-- Enables data-driven decision-making to improve Customer Lifetime Value (CLV)
+## Business Impact & Insights
 
-## Project Preview
+- Identified high-risk customer segments contributing to churn
+- Found strong correlation between short tenure and higher churn probability
+- Highlighted that long-term contract customers have significantly lower churn rates
+- Enabled predictive capability to support data-driven customer retention strategies
 
-![]()
+### Business Applications
+
+- Offer targeted retention discounts to Month-to-Month customers
+- Develop loyalty programs for early-stage customers
+- Implement personalized marketing campaigns based on churn risk
+- Improve service strategies for high-value customers
+
+## Snapshot
+
+
+
